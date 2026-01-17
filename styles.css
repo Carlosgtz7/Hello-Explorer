@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(39, 39, 39);
+    font-family: "Roboto", sans-serif;
+    justify-items: center;
+    align-items: center;
+}
+
+#earth {
+    width: 300px;
+    height: auto;
+}
+
+#moon {
+    width: 100px;
+    height: auto;
+}
+
+.main-content {
+    width: 50%;
+    height: 80%;
+    border: red solid 2px;
+    margin-top: 10vh;
+}
+
+.main-content h1 {
+    font-size: 3em;
+    color: rgb(255, 251, 251);
+}
+
+.main-content p {
+    font-size: 1em;
+    line-height: 1.2em;
+    letter-spacing: .1rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    color: rgb(212, 212, 212);
+}
+
+.images-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
