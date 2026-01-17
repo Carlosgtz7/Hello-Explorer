@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Hello Explorer</title>
   </head>
-  <body>
+  <body id="earthPage">
     <div class="main-content">
-      <h1>Earth</h1>
+      <h1 id="title">Earth</h1>
       <!-- GPT 5.2 "give me a paragraph or two general description of the 
     earth and the moon except I want them in nba terms" -->
-      <p>
+      <p id="desc">
         Think of the Earth as the NBA’s ultimate franchise player—a true MVP who
         does everything on the court. It’s got elite defense with its atmosphere
         blocking harmful radiation, strong rebounding with gravity keeping
@@ -24,8 +24,12 @@
         highest level for billions of years.
       </p>
       <div class="images-container">
-        <img src="/images/earth.png" id="earth" alt="Earth" />
-        <img src="/images/moon.png" id="moon" alt="Moon" />
+        <a href="index.html"
+          ><img src="/images/earth.png" id="earth" class="active" alt="Earth"
+        /></a>
+        <a href="moon.html"
+          ><img src="/images/moon.png" id="moon" alt="Moon"
+        /></a>
       </div>
     </div>
   </body>

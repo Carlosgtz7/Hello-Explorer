@@ -1,2 +1,2 @@
-var earth = document.getElementById("Earth");
-var moon = document.getElementById("Moon");
+const earth = document.getElementById("earth");
+const moon = document.getElementById("moon");

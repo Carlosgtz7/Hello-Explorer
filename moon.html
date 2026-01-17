@@ -6,23 +6,31 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Hello Explorer</title>
   </head>
-  <body>
-    <h1>Moon</h1>
-    <!-- GPT 5.2 "give me a paragraph or two general description of the 
+  <body id="moonPage">
+    <div class="main-content">
+      <h1 id="title">Moon</h1>
+      <!-- GPT 5.2 "give me a paragraph or two general description of the 
     earth and the moon except I want them in nba terms" -->
-    <p>
-      The Moon is Earth’s most reliable teammate—the lockdown defender and
-      veteran presence who doesn’t always show up on the stat sheet but changes
-      the game. It sets hard screens by stabilizing Earth’s tilt, controls the
-      boards by managing the tides, and keeps the tempo steady so the whole
-      system doesn’t fall apart. The Moon may not score much, but it’s always in
-      the right position, circling Earth like a trusted sixth man who knows
-      their role perfectly. Without the Moon, Earth’s championship run would be
-      way more chaotic—proof that even the greatest superstar needs the right
-      supporting cast to win it all.
-    </p>
-    <img src="/images/earth.png" alt="Earth" />
-    <img src="/images/moon.png" alt="Moon" />
+      <p id="desc">
+        The Moon is Earth’s most reliable teammate—the lockdown defender and
+        veteran presence who doesn’t always show up on the stat sheet but
+        changes the game. It sets hard screens by stabilizing Earth’s tilt,
+        controls the boards by managing the tides, and keeps the tempo steady so
+        the whole system doesn’t fall apart. The Moon may not score much, but
+        it’s always in the right position, circling Earth like a trusted sixth
+        man who knows their role perfectly. Without the Moon, Earth’s
+        championship run would be way more chaotic—proof that even the greatest
+        superstar needs the right supporting cast to win it all.
+      </p>
+      <div class="images-container">
+        <a href="index.html"
+          ><img src="/images/earth.png" id="earth" alt="Earth"
+        /></a>
+        <a href="moon.html"
+          ><img src="/images/moon.png" id="moon" class="active" alt="Moon"
+        /></a>
+      </div>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>

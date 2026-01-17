@@ -1,44 +1,55 @@
 body {
-    background-color: rgb(39, 39, 39);
-    font-family: "Roboto", sans-serif;
-    justify-items: center;
-    align-items: center;
+  background-color: rgb(39, 39, 39);
+  font-family: "Roboto", sans-serif;
+  justify-items: center;
+  align-items: center;
+}
+
+#earthPage {
+  background-color: #1f3d2b;
+}
+
+#moonPage {
+  background-color: #2e2e2e;
 }
 
 #earth {
-    width: 300px;
-    height: auto;
+  width: 300px;
+  height: auto;
 }
 
 #moon {
-    width: 100px;
-    height: auto;
+  width: 100px;
+  height: auto;
 }
 
 .main-content {
-    width: 50%;
-    height: 80%;
-    border: red solid 2px;
-    margin-top: 10vh;
+  width: 50%;
+  height: 80%;
+  margin-top: 10vh;
 }
 
 .main-content h1 {
-    font-size: 3em;
-    color: rgb(255, 251, 251);
+  font-size: 3em;
+  color: rgb(255, 251, 251);
 }
 
 .main-content p {
-    font-size: 1em;
-    line-height: 1.2em;
-    letter-spacing: .1rem;
-    margin-top: 1rem;
-    margin-bottom: 4rem;
-    color: rgb(212, 212, 212);
+  font-size: 1em;
+  line-height: 1.2em;
+  letter-spacing: 0.1rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  color: rgb(212, 212, 212);
 }
 
 .images-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
+img.active {
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.9));
+  transform: scale(1.05);
 }
